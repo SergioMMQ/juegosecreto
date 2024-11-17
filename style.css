@@ -113,7 +113,9 @@ button {
 @media screen and (max-width: 600px) {
     .container{
         left: 0;
-    margin: 0;
+        margin: 0;
+        
+        justify-content: center;
     }
     .container__contenido{
         position: relative;
