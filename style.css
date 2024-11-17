@@ -109,3 +109,60 @@ button {
     font-size: 32px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 600px) {
+    .container{
+        left: 0;
+    margin: 0;
+    }
+    .container__contenido{
+        position: relative;
+    }
+    .container__informaciones {
+        padding: 0;
+    }
+    h1 {
+        font-size: 2em;    
+    }
+    .texto__parrafo{
+        font-size: 1em;
+    }
+    img{
+        display: none;
+    }
+    .container__texto {
+        text-align: center;
+    }
+    .container__boton {
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1024px) and (min-width: 600px)  {
+    .container{
+        width: 90%;
+        margin: 0;
+        justify-content: center;
+    }
+    .container__contenido{
+        position: relative;
+        /* left: 5%; */
+    }
+    .container__informaciones {
+        padding: 0;
+    }
+    h1 {
+        font-size: 1em;    
+    }
+    .texto__parrafo{
+        font-size: 1em;
+    }
+    img{
+        width: 300px;
+    }
+    .container__texto {
+        text-align: center;
+    }
+    .container__boton {
+        font-size: 20px;
+    }
+  }
