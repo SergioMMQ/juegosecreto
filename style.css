@@ -112,9 +112,6 @@ button {
 
 @media screen and (max-width: 600px) {
     .container{
-        left: 0;
-        margin: 0;
-        
         justify-content: center;
     }
     .container__contenido{
@@ -139,7 +136,7 @@ button {
         font-size: 20px;
     }
   }
-  @media screen and (max-width: 1024px) and (min-width: 600px)  {
+  @media screen and (max-width: 1080px) and (min-width: 600px)  {
     .container{
         width: 90%;
         margin: 0;
